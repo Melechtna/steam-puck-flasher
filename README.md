@@ -8,7 +8,7 @@ yourself, as there doesn't seem to be any kind of signature on the firmware.
 
 Furthermore, this can be used to fix devices that have unprovisioned serial numbers due to prior expirimentation. The UICR, requires being provisioned in a very specific way, or the Serial number doesn't enumerate, which breaks charging.
 
-The serial number is on the back of the puck, and you can enter this manually if the device is unprovisioned, and cnarging will once again work, getting you once again properly back to stock
+The serial number is on the back of the puck, and you can enter this manually if the device is unprovisioned, and charging will once again work, getting you once again properly back to stock
 
 As a note, I have not tested submitting a random serial number, so it's unclear if this is also valid.
 
