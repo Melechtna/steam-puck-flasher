@@ -1,0 +1,27 @@
+[package]
+name = "steam-puck-flasher"
+version = "0.5.0"
+edition = "2021"
+description = "Flasher for Valve Steam Controller 2 puck (Proteus) firmware"
+
+[dependencies]
+anyhow = "1.0"
+byteorder = "1.5"
+chrono = "0.4"
+crc32fast = "1.3"
+eframe = "0.30"
+egui = "0.30"
+hex = "0.4"
+hidapi = "2.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serialport = "4.10"
+sha2 = "0.10"
+ureq = "3.0"
+
+[[bin]]
+name = "steam-puck-flasher"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
